@@ -104,7 +104,7 @@ int main(int argc, char *argv[])
 
 void print_help_exit()
 {
-  printf("Usage: query_web {..arg1..} {..arg2..} {..arg3..} {..arg4..} {..arg5..}\n");
+  printf("Usage: query_google {..arg1..} {..arg2..} {..arg3..} {..arg4..} {..arg5..}\n");
   printf("  {..arg1..}\n");
   printf("      --google-search    --> get results with given keywords\n");
   printf("      --fetch-site       --> fetch site of given url\n");
@@ -128,6 +128,6 @@ void print_help_exit()
   printf("                             ex: \"\"             --> no page range\n");
   printf("  {..arg5..}             --> filename, if not entered default is stdout\n");
   printf("Ex:  query_google --google-search \"rober hatemo\" --print-all 5\n");
-  printf("     query_google --fetch-site https://eksisozluk.com/rem-uykusu--932646 --print-text \"?p=1-10\" \n"); // couldn't fetch 'eksisozluk'
+  printf("     query_google --fetch-site https://eksisozluk.com/rem-uykusu--932646 --print-text \"?p=1-10\" \n"); // couldn't fetch 'eksisozluk' on last ver.
   exit(1);
 }
