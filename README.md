@@ -13,7 +13,7 @@ Usage: query_google {..arg1..} {..arg2..} {..arg3..} {..arg4..} {..arg5..}
       --print-all        --> prints html content of site
       --print-text       --> prints texts of site
       if arg1 == --google-search
-          --print-url     --> prints urls in google result
+          --print-url    --> prints urls in google result
   {..arg4..}
       if arg1 == --google-search
           {..arg4..}     --> number of sites that will fetch
