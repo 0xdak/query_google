@@ -128,6 +128,6 @@ void print_help_exit()
   printf("                             ex: \"\"             --> no page range\n");
   printf("  {..arg5..}             --> filename, if not entered default is stdout\n");
   printf("Ex:  query_google --google-search \"rober hatemo\" --print-all 5\n");
-  printf("     query_google --fetch-site https://eksisozluk.com/rem-uykusu--932646 --print-text \"?p=1-10\" \n");
+  printf("     query_google --fetch-site https://eksisozluk.com/rem-uykusu--932646 --print-text \"?p=1-10\" \n"); // couldn't fetch 'eksisozluk'
   exit(1);
 }
