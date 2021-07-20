@@ -1,0 +1,17 @@
+https://arxiv.org/abs/2107.08590
+break: Success
+
+
+Sadly, your client does not supply a proper User-Agent,
+ and is consequently excluded.We have an inordinate number of problems with automated scripts
+ which do not supply a User-Agent, and violate the automated access
+ guidelines posted at 
+101
+arxiv.org
+ -- hence we now exclude them all.(In rare cases, we have found that accesses through proxy servers
+ strip the User-Agent information. If this is the case, you need to contact
+ the administrator of your proxy server to get it fixed.)If you believe this determination to be in error, see
+https://
+b8
+arxiv.org/denied.html</b>
+for additional information about restoring access and detailed guidelines for harvesting arXiv content.
