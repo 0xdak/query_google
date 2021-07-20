@@ -82,7 +82,6 @@ int secure_connect(char* hostname, char* segments, SITEDATA* sd) {
     
     if (recvd <= 0)  
     {
-      perror("break");
       break;
     }
       // 0 is end-of-stream, < 0 is an error
