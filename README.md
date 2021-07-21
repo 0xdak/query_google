@@ -1,4 +1,7 @@
 # Query Google
+The general purpose of Query Google is to search the given -key words- in google and fetch/parse this sites to user.
+
+## Using
 ```
 Usage: query_google {..arg1..} {..arg2..} {..arg3..} {..arg4..} {..arg5..}
   {..arg1..}
@@ -26,4 +29,7 @@ Usage: query_google {..arg1..} {..arg2..} {..arg3..} {..arg4..} {..arg5..}
 Ex:  query_google --google-search "rober hatemo" --print-all 5
      query_google --fetch-site https://eksisozluk.com/rem-uykusu--932646 --print-text "?p=1-10"
      query_google --fetch-site https://artbma.org/about/press/release/bma-security-officers-take-center-stage-as-guest-curators-of-a-new-exhibition-opening-in-march-2022 --print-text
-     ```
+ ```
+ ## For Development
+ Look up to the source codes, and ask me what you want. I am open to any suggestion, help and development together. 
+    
